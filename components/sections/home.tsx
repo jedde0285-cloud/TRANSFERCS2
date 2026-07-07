@@ -13,7 +13,7 @@ export function HomeSection({ setView }: { setView: (v: View) => void }) {
     <section className="mx-auto max-w-7xl px-4 py-10 md:px-8 md:py-16">
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-6">
         {/* left: top-5 panel */}
-        <div className="flex justify-center lg:col-span-4 lg:justify-start lg:pt-4">
+        <div className="flex justify-center lg:col-span-4 lg:justify-start lg:pt-4 lg:pl-8">
           <Top5Panel setView={setView} />
         </div>
 

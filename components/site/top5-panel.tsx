@@ -19,7 +19,7 @@ export function Top5Panel({ setView }: { setView: (v: View) => void }) {
         type="button"
         onClick={() => setView('teams')}
         aria-label={t('nav.teams')}
-        className="absolute -left-10 top-6 z-20 -rotate-12 drop-shadow-[0_10px_20px_rgba(0,0,0,0.6)] transition-transform hover:-rotate-6 md:-left-12"
+        className="absolute -left-8 -bottom-6 z-20 -rotate-12 drop-shadow-[0_10px_20px_rgba(0,0,0,0.6)] transition-transform hover:-rotate-6"
       >
         <Image src="/images/trophy.webp" alt="Кубок турнира" width={72} height={72} className="h-16 w-16 object-contain" />
       </button>
@@ -29,7 +29,7 @@ export function Top5Panel({ setView }: { setView: (v: View) => void }) {
         type="button"
         onClick={() => setView('players')}
         aria-label={t('nav.players')}
-        className="absolute -right-9 top-4 z-20 rotate-12 drop-shadow-[0_10px_20px_rgba(0,0,0,0.6)] transition-transform hover:rotate-6 md:-right-10"
+        className="absolute -right-8 -bottom-7 z-20 rotate-12 drop-shadow-[0_10px_20px_rgba(0,0,0,0.6)] transition-transform hover:rotate-6"
       >
         <Image src="/images/mvp.webp" alt="MVP турнира" width={68} height={68} className="h-14 w-14 object-contain" />
       </button>
