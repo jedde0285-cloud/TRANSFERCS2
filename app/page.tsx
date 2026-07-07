@@ -2,7 +2,6 @@
 
 export default function Home() {
   return (
-    <SiteShell>
       <main>
         {/* Главный блок с Донком */}
         <section className="relative overflow-hidden py-12 md:py-20 bg-[#0a0a0a]">
@@ -91,6 +90,5 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </SiteShell>
   );
 }
